@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300;900&family=Inconsolata:wght@300&display=swap');
+
+/* font-family: 'Gluten', cursive; // 300 and 900
+font-family: 'Inconsolata', monospace; */
+
+/* Dark Blue: #01295F
+Teal Blue: #437F97
+Olive: #849324
+Yellow: #FFB30F
+Red: #FD151B */
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    color: #fd151b;
+    font-size: 8vw;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #01295f;
+    font-family: 'Gluten', cursive;
+    font-weight: 300;
+}

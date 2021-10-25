@@ -3,12 +3,13 @@
 ## Steps
 
 1. ~~Create file structure~~
-    - ~~Home (index.html, app.js), Map (index.html,
-2. Design game
-    - theme, avatars, quests, assets, etc.
-    - what choices are being presented, what consequences/rewards will exist (all adjustments to user object)
+    - ~~Home (index.html, app.js), Map (index.html, map.js) Quest (index.html, quest.js), Data (quest-data.js)~~
+2. ~~Design game~~
+    - ~~theme, avatars, quests, assets, etc.~~
+    - ~~what choices are being presented, what consequences/rewards will exist (all adjustments to user object)~~
+    - ~~Gather assets~~
 3. Home page
-    - Build out HTML
+    - ~~Build out HTML~~
     - TDD LS functions (getUser, setUser)
     - Create submit event
         - TDD generateUser()
