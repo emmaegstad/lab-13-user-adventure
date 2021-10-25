@@ -3,21 +3,24 @@
 ## Steps
 
 1. ~~Create file structure~~
-    - ~~Home (index.html, app.js), Map (index.html, map.js), Quests (index.html, quests.js, quest-data.js)~~
-2. Home page
+    - ~~Home (index.html, app.js), Map (index.html,
+2. Design game
+    - theme, avatars, quests, assets, etc.
+    - what choices are being presented, what consequences/rewards will exist (all adjustments to user object)
+3. Home page
     - Build out HTML
     - TDD LS functions (getUser, setUser)
     - Create submit event
         - TDD generateUser()
         - setUser()
         - Redirect to map page
-3. Create preliminary quest data
-4. Map page
+4. Create preliminary quest data
+5. Map page
     - Build out HTML
     - Add links
         - Make unclickable if quest has been completed
         - Links should contain URL search params containing the quest ID
-5. Quest page
+6. Quest page
     - Build out HTML
         - On page load, grab quest ID from search params and populate correct data
         - On form submit, update user data and redirect to map page
