@@ -1,6 +1,10 @@
+.container {
+    margin: 50px;
+}
+
 h1 {
     margin: 40px 0;
-    font-size: 10vw;
+    font-size: 90px;
 }
 
 form {
