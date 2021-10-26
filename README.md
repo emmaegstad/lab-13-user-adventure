@@ -1,6 +1,6 @@
 # Adventure Quest Plan
 
-## Steps
+## Pt. 1 Steps
 
 1. ~~Create file structure~~
     - ~~Home (index.html, app.js), Map (index.html, map.js) Quest (index.html, quest.js), Data (quest-data.js)~~
@@ -16,15 +16,16 @@
         - ~~setUser()~~
         - ~~Redirect to map page~~
 4. ~~Create preliminary quest data~~
-5. Map page
+5. ~~Map page~~
     - ~~Build out HTML~~
-    - Add links
-        - Make unclickable if quest has been completed
+    - ~~Add links~~
         - ~~Links should contain URL search params containing the quest ID~~
-6. Quest page
+6. ~~Quest page~~
     - ~~Build out HTML~~
         - ~~On page load, grab quest ID from search params and populate correct data~~
-        - On form submit, update user data and redirect to map page
+        - ~~Refactor how options load, should be a loop~~
+7. Display user info on all pages
+    - Create system-wide header
 
 ## Home Page
 

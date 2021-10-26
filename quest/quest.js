@@ -1,21 +1,38 @@
 import { findById } from '../storage-utils.js';
 import quests from '../data/quest-data.js';
 
-const questTitle = document.getElementById('quest-title');
-const questImage = document.getElementById('quest-image');
-const questDesc = document.getElementById('quest-description');
-const option1 = document.getElementById('label1');
-const option2 = document.getElementById('label2');
-const option3 = document.getElementById('label3');
-
 const params = new URLSearchParams(window.location.search);
 const questParam = params.get('id');
 
 const currentQuest = findById(questParam, quests);
 
+const questTitle = document.getElementById('quest-title');
 questTitle.textContent = currentQuest.title;
+
+const questImage = document.getElementById('quest-image');
 questImage.src = currentQuest.image;
+
+const questDesc = document.getElementById('quest-description');
 questDesc.textContent = currentQuest.description;
-option1.textContent = currentQuest.choices[0].description;
-option2.textContent = currentQuest.choices[1].description;
-option3.textContent = currentQuest.choices[2].description;
+
+const choiceSection = document.querySelector('.quest-choices');
+
+for (let choice of currentQuest.choices) {
+    const label = document.createElement('label');
+
+    const input = document.createElement('input');
+    input.type = 'radio';
+    input.name = 'choice';
+    input.required = true;
+    input.value = choice.id;
+
+    const span = document.createElement('span');
+    span.textContent = choice.description;
+
+    label.append(input, span);
+    choiceSection.append(label);
+}
+
+const button = document.createElement('button');
+button.textContent = 'MEOW';
+choiceSection.append(button);
