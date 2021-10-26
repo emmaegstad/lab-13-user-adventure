@@ -43,7 +43,7 @@ const heist = {
     },
     image: '../assets/heist.jpeg',
     description:
-        'The Human gave you and your brother each a treat. Your treat is fine and all... but you want to have his treat, too. What do you do?',
+        'The Human gave you and your brother each a treat. Your treat is fine and all... but you want his treat, too. What do you do?',
     choices: [
         {
             id: 'choice 1',

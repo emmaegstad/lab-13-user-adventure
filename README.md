@@ -24,8 +24,7 @@
     - ~~Build out HTML~~
         - ~~On page load, grab quest ID from search params and populate correct data~~
         - ~~Refactor how options load, should be a loop~~
-7. Display user info on all pages
-    - Create system-wide header
+7. ~~Display user info on all pages~~
 
 ## Home Page
 
