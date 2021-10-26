@@ -18,6 +18,7 @@
     - Create HTML, styling
     - Display results
     - Game reset
+4. Figure out how to style map page
 
 ## Pt. 1 Steps
 
