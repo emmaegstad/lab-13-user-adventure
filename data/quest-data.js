@@ -11,7 +11,7 @@ const jailbreak = {
         {
             id: 'choice 1',
             description:
-                "Run full tilt through the Human's legs and into the neighbor's yard. Find your freedom.",
+                "Run full tilt through their legs and into the neighbor's yard. Find your freedom.",
             result: 'choice 1 result',
             lives: -3,
             treats: 0,
@@ -43,7 +43,7 @@ const heist = {
     },
     image: '../assets/heist.jpeg',
     description:
-        'The Human gave you and your brother each a treat. Your treat is great, but you would like to have his treat, as well. What do you do?',
+        'The Human gave you and your brother each a treat. Your treat is fine and all... but you want to have his treat, too. What do you do?',
     choices: [
         {
             id: 'choice 1',
@@ -79,7 +79,7 @@ const catastrophe = {
     },
     image: '../assets/catastrophe.jpeg',
     description:
-        "The Humans are eating dinner, and you're sitting on the desk watching them from across the room. Boring. You notice a cup full of red liquid on the desk, and are struck by a brilliant idea. What do you do? ",
+        "The Humans are eating dinner, and you're sitting on the desk watching them from across the room. Boring. You notice a cup full of red liquid on the desk, and are struck by a brilliant idea. What to do? ",
     choices: [
         {
             id: 'choice 1',
@@ -91,7 +91,7 @@ const catastrophe = {
         {
             id: 'choice 2',
             description:
-                "Bat around the computer cables, instead. You're too tired to deal with their hysterics right now. ",
+                "Bat around the computer cables instead. You're too tired to deal with their hysterics right now. ",
             result: 'choice 2 result',
             lives: 0,
             treats: 5,
