@@ -8,13 +8,13 @@
     - ~~theme, avatars, quests, assets, etc.~~
     - ~~what choices are being presented, what consequences/rewards will exist (all adjustments to user object)~~
     - ~~Gather assets~~
-3. Home page
+3. ~~Home page~~
     - ~~Build out HTML~~
-    - TDD LS functions (getUser, setUser)
-    - Create submit event
-        - TDD generateUser()
-        - setUser()
-        - Redirect to map page
+    - ~~TDD LS functions (getUser, setUser)~~
+    - ~~Create submit event~~
+        - ~~TDD generateUser()~~
+        - ~~setUser()~~
+        - ~~Redirect to map page~~
 4. Create preliminary quest data
 5. Map page
     - Build out HTML
