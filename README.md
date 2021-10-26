@@ -1,5 +1,24 @@
 # Adventure Quest Plan
 
+## Pt. 2 Steps
+
+1. Quest page game logic
+    - Submit event handler
+        - Grab selected radio button
+        - Hide form, display quest result
+        - Get user results
+        - Update user
+            - TDD scoreQuest() (updates treat, lives, completed)
+        - Reset user to LS
+        - Link back to map page
+2. Map page
+    - Disable quests that have been completed
+    - Redirect to results at 0 lives or all quests completed
+3. Result page
+    - Create HTML, styling
+    - Display results
+    - Game reset
+
 ## Pt. 1 Steps
 
 1. ~~Create file structure~~
