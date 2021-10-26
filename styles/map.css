@@ -1,10 +1,21 @@
-h1 {
-    display: none;
+body {
+    background-color: #d7ebf3;
+}
+
+header {
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     background-image: url('../assets/map.jpeg');
     background-size: cover;
+    border-color: #fd151b;
 }
 
 #map-links {

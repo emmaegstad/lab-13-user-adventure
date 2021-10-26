@@ -63,7 +63,7 @@ const heist = {
         {
             id: 'choice 3',
             description:
-                'Walk toward him nonchalantly, and smack him on the head as you go by. He can keep the treat.',
+                'Walk toward him nonchalantly, and smack him on the head as you go by. Loser can keep the treat.',
             result: 'choice 3 result',
             lives: 0,
             treats: 0,
@@ -83,7 +83,7 @@ const catastrophe = {
     choices: [
         {
             id: 'choice 1',
-            description: "Knock that shit off! That'll show them.",
+            description: "Knock that shit off! That'll show 'em.",
             result: 'choice 1 result',
             lives: -3,
             treats: 0,
