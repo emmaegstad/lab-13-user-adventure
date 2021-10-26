@@ -22,8 +22,8 @@
         - Make unclickable if quest has been completed
         - ~~Links should contain URL search params containing the quest ID~~
 6. Quest page
-    - Build out HTML
-        - On page load, grab quest ID from search params and populate correct data
+    - ~~Build out HTML~~
+        - ~~On page load, grab quest ID from search params and populate correct data~~
         - On form submit, update user data and redirect to map page
 
 ## Home Page
