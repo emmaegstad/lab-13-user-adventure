@@ -1,0 +1,9 @@
+#map-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocked {
+    pointer-events: none;
+}

@@ -15,12 +15,12 @@
         - ~~TDD generateUser()~~
         - ~~setUser()~~
         - ~~Redirect to map page~~
-4. Create preliminary quest data
+4. ~~Create preliminary quest data~~
 5. Map page
-    - Build out HTML
+    - ~~Build out HTML~~
     - Add links
         - Make unclickable if quest has been completed
-        - Links should contain URL search params containing the quest ID
+        - ~~Links should contain URL search params containing the quest ID~~
 6. Quest page
     - Build out HTML
         - On page load, grab quest ID from search params and populate correct data
