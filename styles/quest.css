@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.avatars {
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+}
+
+.container {
+    height: auto;
+    width: 600px;
+    margin: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 15px;
+}
+
+.quest-choices {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+}
+
+img {
+    max-height: 250px;
+}
+
+button {
+    align-self: center;
+    margin-top: 15px;
+    width: 100px;
+}

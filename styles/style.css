@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300;900&family=Inconsolata:wght@300&display=swap');
+
+/* font-family: 'Gluten', cursive; // 300 and 900
+font-family: 'Inconsolata', monospace; */
+
+/* Dark Blue: #01295F
+Light Blue: #d7ebf3
+Olive: #849324
+Yellow: #FFB30F
+Red: #FD151B */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #01295f;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    padding: 25px;
+    background-color: #d7ebf3;
+    border: 10px solid #ffb30f;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    color: #fd151b;
+    font-size: 7vw;
+    margin: 20px;
+}
+
+.avatars {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color: #01295f;
+    font-family: 'Gluten', cursive;
+    font-weight: 300;
+}

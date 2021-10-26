@@ -12,6 +12,79 @@
     </head>
 
     <body>
+        <div class="container">
+            <h1 class="title">Kitty Quest</h1>
+            <p class="input-prompt">Choose a name and avatar!</p>
+            <form id="user">
+                <label id="name-label">
+                    <input
+                        type="text"
+                        class="name-input"
+                        id="name"
+                        name="name"
+                    />
+                </label>
+                <section class="avatars">
+                    <label>
+                        <input
+                            type="radio"
+                            id="cat1"
+                            name="avatar"
+                            required
+                            value="sphynx"
+                        />
+                        <img
+                            src="./assets/avatars/sphynx.jpeg"
+                            alt="A sphynx cat tilting its head and looking at the camera."
+                            id="cat1-img"
+                        />
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            id="cat2"
+                            name="avatar"
+                            required
+                            value="grey-tabby"
+                        />
+                        <img
+                            src="./assets/avatars/grey-tabby.jpeg"
+                            alt="A gray tabby hiding partially behind a table, looking suspicious."
+                            id="cat2-img"
+                        />
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            id="cat3"
+                            name="avatar"
+                            required
+                            value="brown-tabby"
+                        />
+                        <img
+                            src="./assets/avatars/brown-tabby.jpeg"
+                            alt="A brown tabby making a funny face."
+                            id="cat4-img"
+                        />
+                    </label>
+                    <label>
+                        <input
+                            type="radio"
+                            id="cat4"
+                            name="avatar"
+                            required
+                            value="longhair"
+                        />
+                        <img
+                            src="./assets/avatars/longhair.jpeg"
+                            alt="A pretty, gray and white longhaired cat sitting up."
+                            id="cat3-img"
+                        />
+                    </label>
+                </section>
+                <button id="submit">MEOW</button>
+            </form>
+        </div>
         <script type="module" src="./app.js"></script>
     </body>
 </html>
