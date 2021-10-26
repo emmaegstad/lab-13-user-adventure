@@ -47,6 +47,8 @@ h1 {
 
 img {
     max-height: 250px;
+    border: 5px #ffb30f solid;
+    /* border-radius: 6%; */
 }
 
 button {
