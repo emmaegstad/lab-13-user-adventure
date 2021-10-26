@@ -1,17 +1,13 @@
-.input-prompt {
-    margin-top: 0;
+h1 {
+    margin: 40px 0;
+    font-size: 10vw;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-}
-
-.avatars {
-    display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 img {

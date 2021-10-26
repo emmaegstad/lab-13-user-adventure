@@ -1,5 +1,10 @@
-import { findById } from '../storage-utils.js';
+import { findById, getUser } from '../storage-utils.js';
+import { renderUser } from '../renderUser.js';
 import quests from '../data/quest-data.js';
+
+const user = getUser();
+
+renderUser(user);
 
 const params = new URLSearchParams(window.location.search);
 const questParam = params.get('id');

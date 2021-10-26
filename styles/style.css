@@ -23,8 +23,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     padding: 25px;
     background-color: #d7ebf3;
     border: 10px solid #ffb30f;
@@ -37,6 +37,11 @@ h1 {
     color: #fd151b;
     font-size: 7vw;
     margin: 20px;
+}
+
+.avatars {
+    display: flex;
+    gap: 15px;
 }
 
 button {

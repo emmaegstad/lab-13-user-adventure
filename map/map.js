@@ -1,9 +1,9 @@
 import quests from '../data/quest-data.js';
-// import { getUser } from '../storage-utils.js';
+import { getUser } from '../storage-utils.js';
+import { renderUser } from '../renderUser.js';
 
 const mapLinks = document.getElementById('map-links');
-
-// const user = getUser();
+const user = getUser();
 
 for (let quest of quests) {
     const a = document.createElement('a');
@@ -12,7 +12,4 @@ for (let quest of quests) {
     mapLinks.appendChild(a);
 }
 
-// user.Completed.push('Jailbreak');
-// if (user.Completed.includes('Jailbreak')) {
-//     a.classList.append('blocked');
-// }
+renderUser(user);
