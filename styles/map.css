@@ -42,17 +42,49 @@ main {
     border-color: #fd151b;
 }
 
-a {
-    color: white;
-    font-size: 4vw;
-}
-
 #map-links {
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
     align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.blocked {
-    pointer-events: none;
+a {
+    text-decoration: none;
+    font-family: 'Gluten', cursive;
+    font-weight: 900;
+    color: #fd151b;
+    font-size: 15px;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: hsla(197.1, 53.8%, 89.8%, 0.5);
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+}
+
+.jailbreak {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.heist {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.catastrophe {
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
