@@ -55,7 +55,7 @@ const heist = {
         {
             id: 'choice 2',
             description:
-                "Let him have it. He can't say you never did anything for him now, can he?",
+                "Let him have it. He can't say you never did nothin' for him now, can he?",
             result: 'choice 2 result',
             lives: 0,
             treats: 5,
