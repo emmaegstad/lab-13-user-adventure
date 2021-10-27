@@ -12,7 +12,7 @@ const jailbreak = {
             id: 'choice 1',
             description:
                 "Run full tilt through their legs and into the neighbor's yard. Find your freedom.",
-            result: 'choice 1 result',
+            result: 'You get lost and spend two days outside. It storms, and you finally find your way home soaked and hungry. You lose three lives.',
             lives: -3,
             treats: 0,
         },
@@ -20,7 +20,7 @@ const jailbreak = {
             id: 'choice 2',
             description:
                 'Acquiesce to their wishes, and go nap in the kitchen. It sucks out there, anyways.',
-            result: 'choice 2 result',
+            result: 'What a good kitty! You wake up feeling refreshed and ready to wreack havoc. 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -28,7 +28,7 @@ const jailbreak = {
             id: 'choice 3',
             description:
                 "Make a break for it, but regret it as soon as you're out the door. Let the Human pick you up and bring you back inside.",
-            result: 'choice 3 result',
+            result: 'Glad you learned your lesson. No lives lost, but no treats for you, either!',
             lives: 0,
             treats: 0,
         },
@@ -48,15 +48,15 @@ const heist = {
         {
             id: 'choice 1',
             description: "Steal his treat. He's an idiot.",
-            result: 'choice 1 result',
+            result: "You gain 1 treat, but your brother wasn't about to let that slide. He chased you down and kicked your ass. 3 lives lost.",
             lives: -3,
-            treats: 0,
+            treats: 1,
         },
         {
             id: 'choice 2',
             description:
                 "Let him have it. He can't say you never did nothin' for him now, can he?",
-            result: 'choice 2 result',
+            result: 'Good kitty. 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -64,7 +64,7 @@ const heist = {
             id: 'choice 3',
             description:
                 'Walk toward him nonchalantly, and smack him on the head as you go by. Loser can keep the treat.',
-            result: 'choice 3 result',
+            result: 'Oh my god. You are such a jerk. No lives lost, no treats gained.',
             lives: 0,
             treats: 0,
         },
@@ -84,7 +84,7 @@ const catastrophe = {
         {
             id: 'choice 1',
             description: "Knock that shit off! That'll show 'em.",
-            result: 'choice 1 result',
+            result: 'The drink spills on the dog sleeping below the desk. He wakes up in a panic and knocks over the bookshelf behind him. The humans are yelling and scrambling to catch it. You get so scared that you lose 3 lives. ',
             lives: -3,
             treats: 0,
         },
@@ -92,7 +92,7 @@ const catastrophe = {
             id: 'choice 2',
             description:
                 "Bat around the computer cables instead. You're too tired to deal with their hysterics right now. ",
-            result: 'choice 2 result',
+            result: 'Excellent choice. 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -100,7 +100,7 @@ const catastrophe = {
             id: 'choice 3',
             description:
                 'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk to the other room. Sike.',
-            result: 'choice 3 result',
+            result: 'It never ends with you, does it? Butthead. No lives lost, no treats gained.',
             lives: 0,
             treats: 0,
         },
