@@ -57,4 +57,6 @@ choiceSection.addEventListener('submit', (event) => {
 
     const redirectLink = document.querySelector('.redirect-link');
     redirectLink.classList.remove('hidden');
+
+    renderUser(user);
 });

@@ -1,22 +1,19 @@
 const userInfo = document.querySelector('.user-info');
 
 export function renderUser(user) {
-    const avatar = document.createElement('img');
+    const avatar = document.querySelector('.avatars');
     avatar.src = `../assets/avatars/${user.Avatar}.jpeg`;
-    avatar.classList.add('avatars');
 
-    const userInfoText = document.createElement('div');
-    userInfoText.classList.add('user-info__text');
+    const userInfoText = document.querySelector('.user-info__text');
 
-    const name = document.createElement('span');
+    const name = document.querySelector('.name');
     name.textContent = user.Name;
 
-    const lives = document.createElement('span');
+    const lives = document.querySelector('.lives');
     lives.textContent = `Lives: ${user.Lives}`;
 
-    const treats = document.createElement('span');
+    const treats = document.querySelector('.treats');
     treats.textContent = `Treats: ${user.Treats}`;
 
-    userInfoText.append(name, lives, treats);
     userInfo.append(avatar, userInfoText);
 }
