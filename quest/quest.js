@@ -3,7 +3,6 @@ import { renderUser } from '../renderUser.js';
 import quests from '../data/quest-data.js';
 
 const user = getUser();
-
 renderUser(user);
 
 const params = new URLSearchParams(window.location.search);

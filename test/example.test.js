@@ -67,7 +67,6 @@ test('generateUser should return a new user object', (expect) => {
         Treats: 0,
         Completed: {},
     };
-
     const formData = new FormData();
     formData.set('name', 'emma');
     formData.set('avatar', 'longhair');
@@ -112,8 +111,10 @@ test('hasCompletedAllQuests should return true if user has completed all quests'
     const userObj = {
         Completed: { jailbreak: true, heist: true, catastrophe: true },
     };
+
     //Act
     const actual = hasCompletedAllQuests(userObj);
+
     //Expect
     expect.equal(actual, true);
 });
@@ -124,6 +125,7 @@ test('hasCompletedAllQuests should return false if user has not completed all qu
         Completed: { jailbreak: true, heist: true },
     };
     //Act
+
     const actual = hasCompletedAllQuests(userObj);
     //Expect
     expect.equal(actual, false);
