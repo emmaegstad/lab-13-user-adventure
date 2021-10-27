@@ -1,4 +1,4 @@
-import { findById, getUser } from '../storage-utils.js';
+import { findById, getUser, scoreQuest, setUser } from '../storage-utils.js';
 import { renderUser } from '../renderUser.js';
 import quests from '../data/quest-data.js';
 
@@ -45,15 +45,16 @@ choiceSection.append(button);
 choiceSection.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const selectedChoice = document.querySelector(
-        'input[type="radio"]:checked'
-    );
-    console.log(selectedChoice);
+    const selectedInput = document.querySelector('input[type="radio"]:checked');
+    const inputId = selectedInput.value;
+    const selectedChoice = findById(inputId, currentQuest.choices);
 
-    // - Hide form, display quest result
-    // - Get user results
-    // - Update user
-    //     - TDD scoreQuest() (updates treat, lives, completed)
-    // - Reset user to LS
-    // - Link back to map page
+    choiceSection.classList.add('hidden');
+    questDesc.textContent = selectedChoice.result;
+
+    scoreQuest(user, selectedChoice, currentQuest.id);
+    setUser(user);
+
+    const redirectLink = document.querySelector('.redirect-link');
+    redirectLink.classList.remove('hidden');
 });

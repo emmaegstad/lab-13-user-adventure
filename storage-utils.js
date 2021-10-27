@@ -29,7 +29,7 @@ export function generateUser(data) {
 }
 
 export function scoreQuest(user, choice, quest) {
-    user.lives += choice.lives;
-    user.treats += choice.treats;
-    user.completed[quest] = true;
+    user.Lives += choice.lives;
+    user.Treats += choice.treats;
+    user.Completed[quest] = true;
 }

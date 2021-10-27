@@ -81,11 +81,11 @@ test('generateUser should return a new user object', (expect) => {
 test('scoreQuest should update lives, hp and completed quests on user object', (expect) => {
     //Arrange
     const userObj = {
-        name: 'Minnie',
-        avatar: 'grey-tabby',
-        completed: {},
-        treats: 0,
-        lives: 9,
+        Name: 'Minnie',
+        Avatar: 'grey-tabby',
+        Completed: {},
+        Treats: 0,
+        Lives: 9,
     };
     const choiceObj = {
         id: 'choice 1',
@@ -101,7 +101,7 @@ test('scoreQuest should update lives, hp and completed quests on user object', (
     scoreQuest(userObj, choiceObj, questId);
 
     //Expect
-    expect.equal(userObj.lives, 6);
-    expect.equal(userObj.treats, 2);
-    expect.equal(userObj.completed[questId], true);
+    expect.equal(userObj.Lives, 6);
+    expect.equal(userObj.Treats, 2);
+    expect.equal(userObj.Completed[questId], true);
 });
