@@ -93,6 +93,7 @@ const catastrophe = {
             description:
                 "Bat around the computer cables instead. You're too tired to deal with their hysterics. ",
             result: "Excellent choice - but I'd better not see any bite marks on those cables! 5 treats for you.",
+
             lives: 0,
             treats: 5,
         },
@@ -101,6 +102,7 @@ const catastrophe = {
             description:
                 'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk away. Sike.',
             result: 'Thanks for that, I guess. It never ends with you. No lives lost, no treats gained.',
+
             lives: 0,
             treats: 0,
         },
