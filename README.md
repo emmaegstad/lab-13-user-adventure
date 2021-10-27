@@ -3,7 +3,7 @@
 ## Final Touches
 
 -   ~~Update results page styling~~
--   Update quest result copy
+-   ~~Update quest result copy~~
 -   Update final result copy
 
 ## Pt. 2 Steps

@@ -33,6 +33,7 @@ h1 {
 
 p {
     margin-bottom: 50px;
+    width: 80%;
 }
 .hidden {
     display: none;
