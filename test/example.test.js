@@ -3,6 +3,7 @@ import {
     setUser,
     generateUser,
     scoreQuest,
+    hasCompletedAllQuests,
 } from '../storage-utils.js';
 
 const test = QUnit.test;
@@ -104,4 +105,26 @@ test('scoreQuest should update lives, hp and completed quests on user object', (
     expect.equal(userObj.Lives, 6);
     expect.equal(userObj.Treats, 2);
     expect.equal(userObj.Completed[questId], true);
+});
+
+test('hasCompletedAllQuests should return true if user has completed all quests', (expect) => {
+    //Arrange
+    const userObj = {
+        Completed: { jailbreak: true, heist: true, catastrophe: true },
+    };
+    //Act
+    const actual = hasCompletedAllQuests(userObj);
+    //Expect
+    expect.equal(actual, true);
+});
+
+test('hasCompletedAllQuests should return false if user has not completed all quests', (expect) => {
+    //Arrange
+    const userObj = {
+        Completed: { jailbreak: true, heist: true },
+    };
+    //Act
+    const actual = hasCompletedAllQuests(userObj);
+    //Expect
+    expect.equal(actual, false);
 });
