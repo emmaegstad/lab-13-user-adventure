@@ -1,4 +1,9 @@
-import { getUser, setUser, generateUser } from '../storage-utils.js';
+import {
+    getUser,
+    setUser,
+    generateUser,
+    scoreQuest,
+} from '../storage-utils.js';
 
 const test = QUnit.test;
 
@@ -71,4 +76,32 @@ test('generateUser should return a new user object', (expect) => {
 
     //Expect
     expect.deepEqual(actual, expected);
+});
+
+test('scoreQuest should update lives, hp and completed quests on user object', (expect) => {
+    //Arrange
+    const userObj = {
+        name: 'Minnie',
+        avatar: 'grey-tabby',
+        completed: {},
+        treats: 0,
+        lives: 9,
+    };
+    const choiceObj = {
+        id: 'choice 1',
+        description:
+            "Run full tilt through their legs and into the neighbor's yard. Find your freedom.",
+        result: 'You get lost and spend two days outside. It storms, and you finally find your way home soaked and hungry. You lose three lives.',
+        lives: -3,
+        treats: 2,
+    };
+    const questId = 'jailbreak';
+
+    //Act
+    scoreQuest(userObj, choiceObj, questId);
+
+    //Expect
+    expect.equal(userObj.lives, 6);
+    expect.equal(userObj.treats, 2);
+    expect.equal(userObj.completed[questId], true);
 });
