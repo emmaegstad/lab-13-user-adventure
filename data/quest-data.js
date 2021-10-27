@@ -91,7 +91,7 @@ const catastrophe = {
         {
             id: 'choice 2',
             description:
-                "Bat around the computer cables instead. You're too tired to deal with their hysterics right now. ",
+                "Bat around the computer cables instead. You're too tired to deal with their hysterics. ",
             result: 'choice 2 result',
             lives: 0,
             treats: 5,
@@ -99,7 +99,7 @@ const catastrophe = {
         {
             id: 'choice 3',
             description:
-                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk to the other room. Sike.',
+                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to freak out, jump down and walk away. Sike.',
             result: 'choice 3 result',
             lives: 0,
             treats: 0,
