@@ -1,5 +1,11 @@
 # Adventure Quest Plan
 
+## Final Touches
+
+-   Update results page styling
+-   Update quest result copy
+-   Update final result copy
+
 ## Pt. 2 Steps
 
 1. ~~Quest page game logic~~
@@ -16,14 +22,15 @@
     - ~~Redirect to results at 0 lives or all quests completed~~
         - ~~TDD hasCompletedAllQuests()~~
         - ~~Set-up if statement in map.js~~
-3. Result page
-    - Add user info element to header
-    - Create HTML, styling
-        - win message, hidden
-        - lose message, hidden
-    - Display results
-        - if statement to remove hidden from appropriate message
-    - Play again button
+3. ~~Result page~~
+    - ~~Add user info element~~
+    - ~~Create HTML~~
+        - ~~win message, hidden~~
+        - ~~ose message, hidden~~
+        - ~~neutral message~~
+    - ~~Display results~~
+        - ~~if statement to remove hidden from appropriate message~~
+    - ~~Play again button~~
 
 ## Pt. 1 Steps
 
