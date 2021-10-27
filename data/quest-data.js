@@ -12,7 +12,7 @@ const jailbreak = {
             id: 'choice 1',
             description:
                 "Run full tilt through their legs and into the neighbor's yard. Find your freedom.",
-            result: 'choice 1 result',
+            result: 'A surprise to no one (except you), you get lost and spend two horrible days outside. You finally find your way back home scared and hungry. You lose three lives.',
             lives: -3,
             treats: 0,
         },
@@ -20,7 +20,7 @@ const jailbreak = {
             id: 'choice 2',
             description:
                 'Acquiesce to their wishes, and go nap in the kitchen. It sucks out there, anyways.',
-            result: 'choice 2 result',
+            result: 'What a good kitty! You wake up feeling refreshed and ready to wreack havoc, having forgotten about the outdoors entirely. 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -28,7 +28,7 @@ const jailbreak = {
             id: 'choice 3',
             description:
                 "Make a break for it, but regret it as soon as you're out the door. Let the Human pick you up and bring you back inside.",
-            result: 'choice 3 result',
+            result: 'Glad you learned your lesson. Last time you made an escape, you got stuck outside for two days! No lives lost, but no treats for you, either.',
             lives: 0,
             treats: 0,
         },
@@ -48,15 +48,15 @@ const heist = {
         {
             id: 'choice 1',
             description: "Steal his treat. He's an idiot.",
-            result: 'choice 1 result',
+            result: "You gain 1 treat, but your brother wasn't about to let that slide. He chased you down and kicked your butt. Was it worth it? Who's to say. 3 lives lost.",
             lives: -3,
-            treats: 0,
+            treats: 1,
         },
         {
             id: 'choice 2',
             description:
                 "Let him have it. He can't say you never did nothin' for him now, can he?",
-            result: 'choice 2 result',
+            result: 'Good kitty. I appreciate the rare display of self-control, so 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -64,7 +64,7 @@ const heist = {
             id: 'choice 3',
             description:
                 'Walk toward him nonchalantly, and smack him on the head as you go by. Loser can keep the treat.',
-            result: 'choice 3 result',
+            result: 'Oh my god. You are such a jerk. No lives lost, no treats gained.',
             lives: 0,
             treats: 0,
         },
@@ -79,12 +79,12 @@ const catastrophe = {
     },
     image: '../assets/catastrophe.jpeg',
     description:
-        "The Humans are eating dinner, and you're sitting on the desk watching them from across the room. Boring. You notice a cup full of red liquid on the desk, and are struck by a brilliant idea. What to do? ",
+        'The Humans are eating dinner while you watch them from across the room. Boring. You notice a cup of wine on the desk, and are struck by a brilliant idea. What to do? ',
     choices: [
         {
             id: 'choice 1',
             description: "Knock that shit off! That'll show 'em.",
-            result: 'choice 1 result',
+            result: 'The drink spills on the dog sleeping below the desk. He wakes up in a panic and knocks over the bookshelf behind him. The humans are yelling and scrambling to catch it. You get so scared that you lose 3 lives.',
             lives: -3,
             treats: 0,
         },
@@ -92,15 +92,17 @@ const catastrophe = {
             id: 'choice 2',
             description:
                 "Bat around the computer cables instead. You're too tired to deal with their hysterics. ",
-            result: 'choice 2 result',
+            result: "Excellent choice - but I'd better not see any bite marks on those cables! 5 treats for you.",
+
             lives: 0,
             treats: 5,
         },
         {
             id: 'choice 3',
             description:
-                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to freak out, jump down and walk away. Sike.',
-            result: 'choice 3 result',
+                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk away. Sike.',
+            result: 'Thanks for that, I guess. It never ends with you. No lives lost, no treats gained.',
+
             lives: 0,
             treats: 0,
         },

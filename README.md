@@ -1,24 +1,36 @@
 # Adventure Quest Plan
 
+## Final Touches
+
+-   ~~Update results page styling~~
+-   ~~Update quest result copy~~
+-   ~~Update final result copy~~
+
 ## Pt. 2 Steps
 
-1. Quest page game logic
-    - Submit event handler
-        - Grab selected radio button
-        - Hide form, display quest result
-        - Get user results
-        - Update user
-            - TDD scoreQuest() (updates treat, lives, completed)
-        - Reset user to LS
-        - Link back to map page
-2. Map page
-    - Disable quests that have been completed
-    - Redirect to results at 0 lives or all quests completed
-3. Result page
-    - Create HTML, styling
-    - Display results
-    - Game reset
-4. Figure out how to style map page
+1. ~~Quest page game logic~~
+    - ~~Submit event handler~~
+        - ~~Grab selected radio button~~
+        - ~~Hide form, display quest result~~
+        - ~~Get user results~~
+        - ~~Update user~~
+            - ~~TDD scoreQuest() (updates treat, lives, completed)~~
+        - ~~Reset user to LS~~
+        - ~~Link back to map page~~
+2. ~~Map page~~
+    - ~~Disable quests that have been completed~~
+    - ~~Redirect to results at 0 lives or all quests completed~~
+        - ~~TDD hasCompletedAllQuests()~~
+        - ~~Set-up if statement in map.js~~
+3. ~~Result page~~
+    - ~~Add user info element~~
+    - ~~Create HTML~~
+        - ~~win message, hidden~~
+        - ~~ose message, hidden~~
+        - ~~neutral message~~
+    - ~~Display results~~
+        - ~~if statement to remove hidden from appropriate message~~
+    - ~~Play again button~~
 
 ## Pt. 1 Steps
 

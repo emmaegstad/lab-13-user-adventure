@@ -1,3 +1,5 @@
+import quests from './data/quest-data.js';
+
 export function findById(id, array) {
     for (let item of array) {
         if (id === item.id) {
@@ -26,4 +28,19 @@ export function generateUser(data) {
         Completed: {},
     };
     return user;
+}
+
+export function scoreQuest(user, choice, quest) {
+    user.Lives += choice.lives;
+    user.Treats += choice.treats;
+    user.Completed[quest] = true;
+}
+
+export function hasCompletedAllQuests(user) {
+    for (let quest of quests) {
+        if (!user.Completed[quest.id]) {
+            return false;
+        }
+    }
+    return true;
 }

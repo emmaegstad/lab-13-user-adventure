@@ -15,7 +15,18 @@
         <div class="container">
             <header>
                 <h1 class="title" id="quest-title">Jailbreak</h1>
-                <div class="user-info"></div>
+                <div class="user-info">
+                    <img
+                        src="../assets/avatars/brown-tabby.jpeg"
+                        alt="cat avatar"
+                        class="avatars"
+                    />
+                    <div class="user-info__text">
+                        <span class="name">Minnie</span>
+                        <span class="lives">Lives: 9</span>
+                        <span class="treats">Treats: 0</span>
+                    </div>
+                </div>
             </header>
             <section class="main">
                 <img
@@ -30,7 +41,10 @@
                     Caticus cuteicus paw at beetle and eat it before it gets
                     away attack the child cough furball.
                 </p>
-                <div class="quest-choices"></div>
+                <form id="quest-choices" class="quest-choices"></form>
+                <a href="../map/index.html" class="redirect-link hidden"
+                    >Back to Map</a
+                >
             </section>
         </div>
         <script type="module" src="./quest.js"></script>
