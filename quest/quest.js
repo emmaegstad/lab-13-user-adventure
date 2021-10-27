@@ -20,7 +20,7 @@ questImage.src = currentQuest.image;
 const questDesc = document.getElementById('quest-description');
 questDesc.textContent = currentQuest.description;
 
-const choiceSection = document.querySelector('.quest-choices');
+const choiceSection = document.querySelector('#quest-choices');
 
 for (let choice of currentQuest.choices) {
     const label = document.createElement('label');
@@ -41,3 +41,19 @@ for (let choice of currentQuest.choices) {
 const button = document.createElement('button');
 button.textContent = 'MEOW';
 choiceSection.append(button);
+
+choiceSection.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const selectedChoice = document.querySelector(
+        'input[type="radio"]:checked'
+    );
+    console.log(selectedChoice);
+
+    // - Hide form, display quest result
+    // - Get user results
+    // - Update user
+    //     - TDD scoreQuest() (updates treat, lives, completed)
+    // - Reset user to LS
+    // - Link back to map page
+});
