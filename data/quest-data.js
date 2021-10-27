@@ -12,7 +12,7 @@ const jailbreak = {
             id: 'choice 1',
             description:
                 "Run full tilt through their legs and into the neighbor's yard. Find your freedom.",
-            result: 'You get lost and spend two days outside. It storms, and you finally find your way home soaked and hungry. You lose three lives.',
+            result: 'Surprising to no one (except you), you get lost and spend two scary, lonely days outside. You finally find your way back home soaked and hungry. You lose three lives.',
             lives: -3,
             treats: 0,
         },
@@ -20,7 +20,7 @@ const jailbreak = {
             id: 'choice 2',
             description:
                 'Acquiesce to their wishes, and go nap in the kitchen. It sucks out there, anyways.',
-            result: 'What a good kitty! You wake up feeling refreshed and ready to wreack havoc. 5 treats for you.',
+            result: 'What a good kitty! You wake up feeling refreshed and ready to wreack havoc, having forgotten about the outdoors entirely. 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -28,7 +28,7 @@ const jailbreak = {
             id: 'choice 3',
             description:
                 "Make a break for it, but regret it as soon as you're out the door. Let the Human pick you up and bring you back inside.",
-            result: 'Glad you learned your lesson. No lives lost, but no treats for you, either!',
+            result: 'Glad you learned your lesson. Last time you made an escape, you got stuck outside in a storm for two days! No lives lost, but no treats for you, either.',
             lives: 0,
             treats: 0,
         },
@@ -48,7 +48,7 @@ const heist = {
         {
             id: 'choice 1',
             description: "Steal his treat. He's an idiot.",
-            result: "You gain 1 treat, but your brother wasn't about to let that slide. He chased you down and kicked your ass. 3 lives lost.",
+            result: "You gain 1 treat, but your brother wasn't about to let that slide. He chased you down and kicked your butt. Was it worth it? Who's to say. 3 lives lost.",
             lives: -3,
             treats: 1,
         },
@@ -56,7 +56,7 @@ const heist = {
             id: 'choice 2',
             description:
                 "Let him have it. He can't say you never did nothin' for him now, can he?",
-            result: 'Good kitty. 5 treats for you.',
+            result: 'Good kitty. I appreciate the rare display of self-control, so 5 treats for you.',
             lives: 0,
             treats: 5,
         },
@@ -84,23 +84,23 @@ const catastrophe = {
         {
             id: 'choice 1',
             description: "Knock that shit off! That'll show 'em.",
-            result: 'The drink spills on the dog sleeping below the desk. He wakes up in a panic and knocks over the bookshelf behind him. The humans are yelling and scrambling to catch it. You get so scared that you lose 3 lives. ',
+            result: 'The drink spills on the dog sleeping below the desk. He wakes up in a panic and knocks over the bookshelf behind him. The humans are yelling and scrambling to catch it. You get so scared that you lose 3 lives.',
             lives: -3,
             treats: 0,
         },
         {
             id: 'choice 2',
             description:
-                "Bat around the computer cables instead. You're too tired to deal with their hysterics right now. ",
-            result: 'Excellent choice. 5 treats for you.',
+                "Bat around the computer cables instead. You're too tired to deal with their hysterics. ",
+            result: "Excellent choice - but I'd better not see any bite marks on those cables! 5 treats for you.",
             lives: 0,
             treats: 5,
         },
         {
             id: 'choice 3',
             description:
-                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk to the other room. Sike.',
-            result: 'It never ends with you, does it? Butthead. No lives lost, no treats gained.',
+                'Meow until they look at you, and then slowly push the cup to the edge. As soon as they start to yell, jump down and walk away. Sike.',
+            result: 'Thanks for that, I guess. It never ends with you, does it? No lives lost, no treats gained.',
             lives: 0,
             treats: 0,
         },

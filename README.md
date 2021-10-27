@@ -2,7 +2,7 @@
 
 ## Final Touches
 
--   Update results page styling
+-   ~~Update results page styling~~
 -   Update quest result copy
 -   Update final result copy
 
