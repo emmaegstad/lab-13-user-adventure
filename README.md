@@ -11,16 +11,19 @@
             - ~~TDD scoreQuest() (updates treat, lives, completed)~~
         - ~~Reset user to LS~~
         - ~~Link back to map page~~
-2. Map page
-    - Disable quests that have been completed
-    - Redirect to results at 0 lives or all quests completed
-        - TDD hasCompletedAllQuests()
-        - Set-up if statement in map.js
+2. ~~Map page~~
+    - ~~Disable quests that have been completed~~
+    - ~~Redirect to results at 0 lives or all quests completed~~
+        - ~~TDD hasCompletedAllQuests()~~
+        - ~~Set-up if statement in map.js~~
 3. Result page
+    - Add user info element to header
     - Create HTML, styling
+        - win message, hidden
+        - lose message, hidden
     - Display results
-    - Game reset
-4. Figure out how to style map page
+        - if statement to remove hidden from appropriate message
+    - Play again button
 
 ## Pt. 1 Steps
 
